@@ -323,6 +323,10 @@
       <Project>{1B9A82C4-BCA1-4834-A33E-226F17BE070B}</Project>
       <Name>Microsoft.AspNet.SignalR.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\src\Microsoft.AspNet.SignalR.MongoDB\Microsoft.AspNet.SignalR.MongoDB.csproj">
+      <Project>{b8ae0e0a-6071-44c9-93d0-a327af7f8952}</Project>
+      <Name>Microsoft.AspNet.SignalR.MongoDB</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\src\Microsoft.AspNet.SignalR.Redis\Microsoft.AspNet.SignalR.Redis.csproj">
       <Project>{fd48578f-e825-47ea-a846-9764e01f523a}</Project>
       <Name>Microsoft.AspNet.SignalR.Redis</Name>

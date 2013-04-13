@@ -94,7 +94,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.SqlServer.Tests", "tests\Microsoft.AspNet.SignalR.SqlServer.Tests\Microsoft.AspNet.SignalR.SqlServer.Tests.csproj", "{0A4487F1-9374-4E7B-957F-99647319C540}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.Client.Silverlight.Sample", "samples\Microsoft.AspNet.SignalR.Client.Silverlight.Sample\Microsoft.AspNet.SignalR.Client.Silverlight.Sample.csproj", "{1E14A334-4346-4C27-8D67-497632CF8974}"
-EndProjectGlobal
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.MongoDB", "src\Microsoft.AspNet.SignalR.MongoDB\Microsoft.AspNet.SignalR.MongoDB.csproj", "{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}"
+EndProject
+Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
@@ -536,6 +539,20 @@ EndProjectGlobal
 		{0A4487F1-9374-4E7B-957F-99647319C540}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0A4487F1-9374-4E7B-957F-99647319C540}.Release|x64.ActiveCfg = Release|Any CPU
 		{0A4487F1-9374-4E7B-957F-99647319C540}.Release|x86.ActiveCfg = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|x64.ActiveCfg = Release|Any CPU
+		{B8AE0E0A-6071-44C9-93D0-A327AF7F8952}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

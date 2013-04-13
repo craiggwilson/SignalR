@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNet.SignalR.Hubs;
+using Microsoft.AspNet.SignalR.MongoDB;
 using Microsoft.AspNet.SignalR.Redis;
 
 namespace Microsoft.AspNet.SignalR.Samples
@@ -19,6 +20,9 @@ namespace Microsoft.AspNet.SignalR.Samples
 
             // Uncomment the following line to enable scale-out using service bus
             //dependencyResolver.UseServiceBus("connection string", "Microsoft.AspNet.SignalR.Samples");
+
+            // Uncomment the following line to enable scale-out using MongoDB
+            dependencyResolver.UseMongoDB("mongodb://localhost:27017");
 
             hubPipeline.AddModule(new SamplePipelineModule());
         }
